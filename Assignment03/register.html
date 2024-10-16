@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register page</title>
+    <style>
+      header,
+      footer,
+      h1,
+      h3,
+      p {
+        text-align: center;
+      }
+      #form {
+        margin-left: 39%;
+        width: 300px;
+      }
+
+      header  {
+        border: 1px solid black;
+        
+        
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href=""><img src="assets/logo.png" alt="Logo" height="30px" /></a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <h1>Register page</h1>
+      <hr />
+      <h3>Please register to continuue</h3>
+      <p>All the feilds are required</p>
+      <hr />
+      <form id="form">
+        <fieldset>
+          <legend>Register</legend>
+          <label for="fname">Full Name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Full Name"
+          /><br /><br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+          /><br /><br />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          /><br /><br />
+          <label>Gender:</label>
+          <br />
+          <label for="male">
+            <input type="radio" id="male" name="gender" value="male" /> Male
+          </label>
+
+          <label for="female">
+            <input type="radio" id="female" name="gender" value="female" />
+            Female </label
+          ><br /><br />
+          <label>Select your hobbies:</label>
+          <br />
+          <label for="reading">
+            <input
+              type="checkbox"
+              id="reading"
+              name="hobbies"
+              value="reading"
+            />
+            Reading
+          </label>
+
+          <label for="traveling">
+            <input
+              type="checkbox"
+              id="traveling"
+              name="hobbies"
+              value="traveling"
+            />
+            Traveling
+          </label>
+
+          <label for="sports">
+            <input type="checkbox" id="sports" name="hobbies" value="sports" />
+            Sports
+          </label>
+
+          <label for="music">
+            <input type="checkbox" id="music" name="hobbies" value="music" />
+            Music </label
+          ><br /><br />
+          <label for="country">Select your country:</label>
+          <select id="country" name="country">
+            <option value="pakistan">Pakistan</option>
+            <option value="india">India</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+          </select>
+          <br /><br />
+          <label for="dob">Date of Birth:</label><br />
+          <input type="date" id="dob" name="dob" />
+          <br /><br />
+          <label for="file">Upload your photo:</label><br />
+          <input type="file" id="file" name="password" /><br /><br />
+          <input type="submit" value="Register" /><br /><br />
+          <a href="">Already a user?</a>
+        </fieldset>
+      </form>
+    </main>
+    <hr>
+    <footer>Copyright &copy; 2024 All right reserved</footer>
+  </body>
+</html>
