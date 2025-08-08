@@ -1,6 +1,4 @@
-Perfect! Now let’s explain **everything again in JavaScript**, step-by-step, using **simple words and examples** so even a **Grade 5 student** can understand it 😊
 
----
 
 ## 🟦 What is OOP (Object-Oriented Programming) in JavaScript?
 
@@ -191,12 +189,4 @@ car1.start(); // Car is starting
 | Function         | Regular code that does something                      |
 | 4 Pillars of OOP | Encapsulation, Abstraction, Inheritance, Polymorphism |
 
----
 
-If you want, I can also give you:
-
-- PDF notes 📄
-- Practice examples 🧠
-- Simple exercises ✅
-
-Just let me know!
