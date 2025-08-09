@@ -1,5 +1,3 @@
-
-
 ## 🟦 What is OOP (Object-Oriented Programming) in JavaScript?
 
 OOP is a way to organize your code using **objects**.
@@ -188,5 +186,3 @@ car1.start(); // Car is starting
 | Method           | Function inside a class                               |
 | Function         | Regular code that does something                      |
 | 4 Pillars of OOP | Encapsulation, Abstraction, Inheritance, Polymorphism |
-
-
