@@ -1,7 +1,4 @@
-Alright Safiullah, let’s break your whole TypeScript notes into a clear and easy-to-digest guide — step-by-step — so you understand not just “what” but also “why” each thing works that way.
-I’ll also give you **memory tricks** at the end so you won’t forget these.
 
----
 
 ## **1. JavaScript (JS) vs TypeScript (TS)**
 
@@ -219,8 +216,3 @@ Here’s a way to remember everything quickly:
 And for **order of work** when coding in TS:
 **Write → Compile → Run**
 (`.ts` → `tsc` → `.js` → `node`)
-
----
-
-If you want, I can also give you **a visual cheat sheet** with all TypeScript basics in one page so you can print it or keep it open while coding.
-Do you want me to prepare that for you?
